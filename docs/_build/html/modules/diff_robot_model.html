@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Robot Model &mdash; differentiable-robot-model  documentation</title>
+  <title>Differentiable robot model class &mdash; differentiable-robot-model  documentation</title>
   
 
   
@@ -38,8 +38,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Rigid Body" href="diff_rigid_body.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="index.html" /> 
+    <link rel="next" title="Differentiable rigid body" href="diff_rigid_body.html" />
+    <link rel="prev" title="API" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -84,9 +84,17 @@
               
             
             
-              <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Robot Model</a></li>
-<li class="toctree-l1"><a class="reference internal" href="diff_rigid_body.html">Rigid Body</a></li>
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../getting_started.html">Getting Started</a></li>
+</ul>
+<p class="caption"><span class="caption-text">API:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">API</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Differentiable robot model class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="diff_rigid_body.html">Differentiable rigid body</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -135,9 +143,9 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="index.html">&lt;no title&gt;</a> &raquo;</li>
+          <li><a href="index.html">API</a> &raquo;</li>
         
-      <li>Robot Model</li>
+      <li>Differentiable robot model class</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -156,15 +164,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <span class="target" id="module-differentiable_robot_model.robot_model"></span><div class="section" id="robot-model">
-<h1>Robot Model<a class="headerlink" href="#robot-model" title="Permalink to this headline">¶</a></h1>
+  <span class="target" id="module-differentiable_robot_model.robot_model"></span><div class="section" id="differentiable-robot-model-class">
+<h1>Differentiable robot model class<a class="headerlink" href="#differentiable-robot-model-class" title="Permalink to this headline">¶</a></h1>
 <p>TODO</p>
 <dl class="py class">
 <dt id="differentiable_robot_model.robot_model.DifferentiableFrankaPanda">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">DifferentiableFrankaPanda</span></code><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableFrankaPanda" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">DifferentiableFrankaPanda</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">device</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableFrankaPanda" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel" title="differentiable_robot_model.robot_model.DifferentiableRobotModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">differentiable_robot_model.robot_model.DifferentiableRobotModel</span></code></a></p>
-<p>Differentiable Robot Model Wrapper for Franka Panda
-TODO</p>
 <dl class="py attribute">
 <dt id="differentiable_robot_model.robot_model.DifferentiableFrankaPanda.training">
 <code class="sig-name descname"><span class="pre">training</span></code><em class="property"><span class="pre">:</span> <span class="pre">bool</span></em><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableFrankaPanda.training" title="Permalink to this definition">¶</a></dt>
@@ -174,10 +180,8 @@ TODO</p>
 
 <dl class="py class">
 <dt id="differentiable_robot_model.robot_model.DifferentiableKUKAiiwa">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">DifferentiableKUKAiiwa</span></code><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableKUKAiiwa" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">DifferentiableKUKAiiwa</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">device</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableKUKAiiwa" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel" title="differentiable_robot_model.robot_model.DifferentiableRobotModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">differentiable_robot_model.robot_model.DifferentiableRobotModel</span></code></a></p>
-<p>Differentiable Robot Model Wrapper for Kuka iiwa
-TODO</p>
 <dl class="py attribute">
 <dt id="differentiable_robot_model.robot_model.DifferentiableKUKAiiwa.training">
 <code class="sig-name descname"><span class="pre">training</span></code><em class="property"><span class="pre">:</span> <span class="pre">bool</span></em><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableKUKAiiwa.training" title="Permalink to this definition">¶</a></dt>
@@ -187,118 +191,48 @@ TODO</p>
 
 <dl class="py class">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">DifferentiableRobotModel</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urdf_path</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">learnable_rigid_body_config</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">DifferentiableRobotModel</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">urdf_path</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">device</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">torch.nn.modules.module.Module</span></code></p>
-<p>Differentiable Robot Model
-TODO</p>
+<p>TODO</p>
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_endeffector_jacobian">
-<code class="sig-name descname"><span class="pre">compute_endeffector_jacobian</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">link_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">torch.Tensor</span><span class="p"><span class="pre">,</span> </span><span class="pre">torch.Tensor</span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_endeffector_jacobian" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>link_name</strong> – name of link name for the jacobian</p></li>
-<li><p><strong>q</strong> – joint angles [batch_size x n_dofs]</p></li>
-</ul>
-</dd>
-</dl>
-<p>Returns: linear and angular jacobian</p>
-</dd></dl>
+<code class="sig-name descname"><span class="pre">compute_endeffector_jacobian</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_endeffector_jacobian" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_forward_dynamics">
-<code class="sig-name descname"><span class="pre">compute_forward_dynamics</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qd</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">f</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">include_gravity</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_damping</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">torch.Tensor</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_forward_dynamics" title="Permalink to this definition">¶</a></dt>
-<dd><p>Computes next qdd via the articulated body algorithm (see Featherstones Rigid body dynamics page 132)</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>q</strong> – joint angles [batch_size x n_dofs]</p></li>
-<li><p><strong>qd</strong> – joint velocities [batch_size x n_dofs]</p></li>
-<li><p><strong>f</strong> – forces to be applied [batch_size x n_dofs]</p></li>
-<li><p><strong>include_gravity</strong> – set to False if your robot has gravity compensation</p></li>
-</ul>
-</dd>
-</dl>
-<p>Returns: accelerations that are the result of applying forces f in state q, qd</p>
-</dd></dl>
+<code class="sig-name descname"><span class="pre">compute_forward_dynamics</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_forward_dynamics" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_forward_dynamics_old">
-<code class="sig-name descname"><span class="pre">compute_forward_dynamics_old</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qd</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">f</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">include_gravity</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_damping</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">torch.Tensor</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_forward_dynamics_old" title="Permalink to this definition">¶</a></dt>
-<dd><p>Computes next qdd by solving the Euler-Lagrange equation
-qdd = H^{-1} (F - Cv - G - damping_term)</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>q</strong> – joint angles [batch_size x n_dofs]</p></li>
-<li><p><strong>qd</strong> – joint velocities [batch_size x n_dofs]</p></li>
-<li><p><strong>f</strong> – forces to be applied [batch_size x n_dofs]</p></li>
-<li><p><strong>include_gravity</strong> – set to False if your robot has gravity compensation</p></li>
-</ul>
-</dd>
-</dl>
-<p>Returns: accelerations that are the result of applying forces f in state q, qd</p>
-</dd></dl>
+<code class="sig-name descname"><span class="pre">compute_forward_dynamics_old</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_forward_dynamics_old" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_forward_kinematics">
-<code class="sig-name descname"><span class="pre">compute_forward_kinematics</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">link_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">Tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">torch.Tensor</span><span class="p"><span class="pre">,</span> </span><span class="pre">torch.Tensor</span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_forward_kinematics" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>q</strong> – joint angles [batch_size x n_dofs]</p></li>
-<li><p><strong>link_name</strong> – name of link</p></li>
-</ul>
-</dd>
-</dl>
-<p>Returns: translation and rotation of the link frame</p>
-</dd></dl>
+<code class="sig-name descname"><span class="pre">compute_forward_kinematics</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_forward_kinematics" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_inverse_dynamics">
-<code class="sig-name descname"><span class="pre">compute_inverse_dynamics</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qd</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qdd_des</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">include_gravity</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_damping</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">torch.Tensor</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_inverse_dynamics" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>q</strong> – joint angles [batch_size x n_dofs]</p></li>
-<li><p><strong>qd</strong> – joint velocities [batch_size x n_dofs]</p></li>
-<li><p><strong>qdd_des</strong> – desired joint accelerations [batch_size x n_dofs]</p></li>
-<li><p><strong>include_gravity</strong> – when False, we assume gravity compensation is already taken care off</p></li>
-</ul>
-</dd>
-</dl>
-<p>Returns: forces to achieve desired accelerations</p>
-</dd></dl>
+<code class="sig-name descname"><span class="pre">compute_inverse_dynamics</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_inverse_dynamics" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_lagrangian_inertia_matrix">
-<code class="sig-name descname"><span class="pre">compute_lagrangian_inertia_matrix</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">include_gravity</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_damping</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">torch.Tensor</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_lagrangian_inertia_matrix" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>q</strong> – joint angles [batch_size x n_dofs]</p></li>
-<li><p><strong>include_gravity</strong> – set to False if your robot has gravity compensation</p></li>
-</ul>
-</dd>
-</dl>
-<p>Returns:</p>
-</dd></dl>
+<code class="sig-name descname"><span class="pre">compute_lagrangian_inertia_matrix</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_lagrangian_inertia_matrix" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_non_linear_effects">
-<code class="sig-name descname"><span class="pre">compute_non_linear_effects</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qd</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">include_gravity</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_damping</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">torch.Tensor</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_non_linear_effects" title="Permalink to this definition">¶</a></dt>
-<dd><p>Compute the non-linear effects (Coriolis, centrifugal, gravitational, and damping effects).</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>q</strong> – joint angles [batch_size x n_dofs]</p></li>
-<li><p><strong>qd</strong> – [batch_size x n_dofs]</p></li>
-<li><p><strong>include_gravity</strong> – set to False if your robot has gravity compensation</p></li>
-</ul>
-</dd>
-</dl>
-<p>Returns:</p>
-</dd></dl>
+<code class="sig-name descname"><span class="pre">compute_non_linear_effects</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.compute_non_linear_effects" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.freeze_learnable_link_param">
+<code class="sig-name descname"><span class="pre">freeze_learnable_link_param</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parameter_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.freeze_learnable_link_param" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.get_joint_limits">
@@ -314,13 +248,13 @@ qdd = H^{-1} (F - Cv - G - damping_term)</p>
 
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.iterative_newton_euler">
-<code class="sig-name descname"><span class="pre">iterative_newton_euler</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">base_acc</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">differentiable_robot_model.spatial_vector_algebra.SpatialMotionVec</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">None</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.iterative_newton_euler" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>base_acc</strong> – spatial acceleration of base (for fixed manipulators this is zero)</p>
-</dd>
-</dl>
-</dd></dl>
+<code class="sig-name descname"><span class="pre">iterative_newton_euler</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.iterative_newton_euler" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.make_link_param_learnable">
+<code class="sig-name descname"><span class="pre">make_link_param_learnable</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parameter_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parametrization</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.nn.modules.module.Module</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.make_link_param_learnable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 <dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.print_learnable_params">
@@ -340,22 +274,21 @@ qdd = H^{-1} (F - Cv - G - damping_term)</p>
 <dd></dd></dl>
 
 <dl class="py method">
+<dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.unfreeze_learnable_link_param">
+<code class="sig-name descname"><span class="pre">unfreeze_learnable_link_param</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">link_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parameter_name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.unfreeze_learnable_link_param" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
 <dt id="differentiable_robot_model.robot_model.DifferentiableRobotModel.update_kinematic_state">
-<code class="sig-name descname"><span class="pre">update_kinematic_state</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">q</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">qd</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">torch.Tensor</span></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">None</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.update_kinematic_state" title="Permalink to this definition">¶</a></dt>
-<dd><p>Updates the kinematic state of the robot
-:param q: joint angles [batch_size x n_dofs]
-:param qd: joint velocities [batch_size x n_dofs]</p>
-<p>Returns:</p>
-</dd></dl>
+<code class="sig-name descname"><span class="pre">update_kinematic_state</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel.update_kinematic_state" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 </dd></dl>
 
 <dl class="py class">
 <dt id="differentiable_robot_model.robot_model.DifferentiableTwoLinkRobot">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">DifferentiableTwoLinkRobot</span></code><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableTwoLinkRobot" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">DifferentiableTwoLinkRobot</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">device</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableTwoLinkRobot" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="#differentiable_robot_model.robot_model.DifferentiableRobotModel" title="differentiable_robot_model.robot_model.DifferentiableRobotModel"><code class="xref py py-class docutils literal notranslate"><span class="pre">differentiable_robot_model.robot_model.DifferentiableRobotModel</span></code></a></p>
-<p>Differentiable Robot Model Wrapper for Two Link Robot
-TODO</p>
 <dl class="py attribute">
 <dt id="differentiable_robot_model.robot_model.DifferentiableTwoLinkRobot.training">
 <code class="sig-name descname"><span class="pre">training</span></code><em class="property"><span class="pre">:</span> <span class="pre">bool</span></em><a class="headerlink" href="#differentiable_robot_model.robot_model.DifferentiableTwoLinkRobot.training" title="Permalink to this definition">¶</a></dt>
@@ -363,12 +296,10 @@ TODO</p>
 
 </dd></dl>
 
-<dl class="py class">
-<dt id="differentiable_robot_model.robot_model.LearnableRigidBodyConfig">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">LearnableRigidBodyConfig</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">learnable_links</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">learnable_kinematics_params</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[]</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">learnable_dynamics_params</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">[]</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.LearnableRigidBodyConfig" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<p>Config for Learnable Rigid Bodies
-TODO</p>
+<dl class="py function">
+<dt id="differentiable_robot_model.robot_model.tensor_check">
+<code class="sig-prename descclassname"><span class="pre">differentiable_robot_model.robot_model.</span></code><code class="sig-name descname"><span class="pre">tensor_check</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">function</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#differentiable_robot_model.robot_model.tensor_check" title="Permalink to this definition">¶</a></dt>
+<dd><p>A decorator for checking the device of input tensors</p>
 </dd></dl>
 
 </div>
@@ -379,8 +310,8 @@ TODO</p>
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="diff_rigid_body.html" class="btn btn-neutral float-right" title="Rigid Body" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="index.html" class="btn btn-neutral float-left" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="diff_rigid_body.html" class="btn btn-neutral float-right" title="Differentiable rigid body" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

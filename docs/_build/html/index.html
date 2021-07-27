@@ -38,7 +38,7 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Getting Started" href="getting_started.html" /> 
+    <link rel="next" title="API" href="modules/index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -83,11 +83,7 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
-</ul>
-<p class="caption"><span class="caption-text">API:</span></p>
+              <p class="caption"><span class="caption-text">API:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="modules/index.html">API</a></li>
 </ul>
@@ -170,21 +166,30 @@ parameters (kinematics or dynamics parameters), which can then be identified fro
 <li><p>Kuka iiwa</p></li>
 <li><p>Franka Panda</p></li>
 <li><p>Allegro Hand</p></li>
+<li><p>Fetch Arm</p></li>
 <li><p>a 2-link toy robot</p></li>
 </ul>
 </div></blockquote>
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a></li>
-</ul>
 </div>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>You can find examples of how to use the library</dt><dd><ul class="simple">
+<li><p>in <strong>examples/run_kinematic_trajectory_opt.py</strong>:
+creating a differentiable model of the Franka Panda and perform kinematic trajectory optimization</p></li>
+<li><p>in <strong>examples/learn_dynamics_iiwa.py</strong>:
+create a differentiable Kuka IIWA model, and make a subset of the dynamics parameters learnable, and learn them from data</p></li>
+<li><p>in <strong>examples/learn_kinematics_of_iiwa.py</strong>:
+create a differentiable Kuka IIWA model, and make a subset of the kinematics parameters learnable, and learn them from data</p></li>
+</ul>
+</dd>
+</dl>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">API:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="modules/index.html">API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="modules/diff_robot_model.html">Robot Model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="modules/diff_rigid_body.html">Rigid Body</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/diff_robot_model.html">Differentiable robot model class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modules/diff_rigid_body.html">Differentiable rigid body</a></li>
 </ul>
 </li>
 </ul>
@@ -206,7 +211,7 @@ parameters (kinematics or dynamics parameters), which can then be identified fro
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="getting_started.html" class="btn btn-neutral float-right" title="Getting Started" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="modules/index.html" class="btn btn-neutral float-right" title="API" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
