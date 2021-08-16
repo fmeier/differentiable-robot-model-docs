@@ -13,8 +13,11 @@ robot = DifferentiableRobotModel(urdf_path)
 ```
 
 Once the robot model has been successfully instatiated with the URDF, we now have access to the properties and rigid body mechanics of the robot.
+The computations within the robot model operates entirely within PyTorch, and so the inputs and outputs are all in the format of Torch tensors. 
 The following example assumes that the robot model is instatiated with a 7 degree-of-freedom Kuka iiwa arm URDF:
 ```py
+import torch
+
 # Values to query the model with
 joint_pos = torch.rand(7)
 joint_vel = torch.rand(7)
