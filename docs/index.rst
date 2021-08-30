@@ -20,9 +20,12 @@ Getting Started
 -----------------
 
 .. toctree::
-   :maxdepth: 2
 
    tutorial
+   
+.. toctree::
+   :maxdepth: 2
+
    modules/index
 
 Additionally you can find examples of how to use the library
