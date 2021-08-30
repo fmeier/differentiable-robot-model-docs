@@ -92,7 +92,15 @@ import torch
 import random
 from torch.utils.data import DataLoader
 
-from differentiable_robot_model.robot_model import DifferentiableKUKAiiwa
+from differentiable_robot_model.rigid_body_params import (
+    PositiveScalar,
+    UnconstrainedTensor,
+)
+from differentiable_robot_model.robot_model import (
+    DifferentiableRobotModel,
+    DifferentiableKUKAiiwa,
+)
+
 from differentiable_robot_model.data_utils import (
     generate_sine_motion_forward_dynamics_data,
 )
