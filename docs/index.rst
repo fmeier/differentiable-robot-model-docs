@@ -18,7 +18,14 @@ Currently, our code should work with any kinematic trees. This package comes wit
 
 Getting Started
 -----------------
-You can find examples of how to use the library
+
+.. toctree::
+   :maxdepth: 2
+
+   tutorial
+   modules/index
+
+Additionally you can find examples of how to use the library
     * in **examples/run_kinematic_trajectory_opt.py**:
       creating a differentiable model of the Franka Panda and perform kinematic trajectory optimization
 
@@ -27,13 +34,6 @@ You can find examples of how to use the library
 
     * in **examples/learn_kinematics_of_iiwa.py**:
       create a differentiable Kuka IIWA model, and make a subset of the kinematics parameters learnable, and learn them from data
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: API:
-
-   modules/index
 
 
 

@@ -1,4 +1,4 @@
-# Tutorials
+# Tutorial
 
 As with most simulated robots, a robot model can be created from an URDF file.
 Officially supported robot URDF files can also be found in `diff_robot_data/`.
