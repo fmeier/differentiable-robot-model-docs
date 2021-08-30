@@ -16,6 +16,8 @@ For the remainder of the tutorial, we will assume that the robot model is instat
 
 Once the robot model has been successfully instatiated with the URDF, we now have access to the properties and rigid body mechanics of the robot.
 ```py
+import torch
+
 # Values to query the model with
 joint_pos = torch.rand(7)
 joint_vel = torch.rand(7)
