@@ -38,7 +38,7 @@ joint_acc = robot.compute_forward_dynamics(joint_pos, joint_vel, torques)
 torques_desired = robot.compute_inverse_dynamics(joint_pos, joint_vel, joint_acc_desired)
 ```
 
-For more details see the [API docs](modules.diff_robot_model).
+For more details see the [API docs](https://fmeier.github.io/differentiable-robot-model-docs/_build/html/modules/diff_robot_model.html).
 
 
 ## Learning the parameters of the Differentiable Robot Model
