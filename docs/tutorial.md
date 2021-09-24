@@ -159,3 +159,14 @@ for batch_idx, batch_data in enumerate(train_loader):
 
 print(f"i: {i} loss: {np.mean(losses)}")
 ```
+
+## Other Examples
+Additionally you can find examples of how to use the library
+- in **examples/run_kinematic_trajectory_opt.py**: 
+creating a differentiable model of the Franka Panda and perform kinematic trajectory optimization
+
+- in **examples/learn_dynamics_iiwa.py**:
+create a differentiable Kuka IIWA model, and make a subset of the dynamics parameters learnable, and learn them from data
+
+- in **examples/learn_kinematics_of_iiwa.py**:
+create a differentiable Kuka IIWA model, and make a subset of the kinematics parameters learnable, and learn them from data
