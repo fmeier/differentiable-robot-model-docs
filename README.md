@@ -13,7 +13,7 @@ Currently, our code should work with any kinematic trees. This package comes wit
 * Allegro Hand
 * a 2-link toy robot
 
-You can find the documentation here:  [Differentiable-Robot-Model Documentation](https://fmeier.github.io/differentiable-robot-model/)  
+You can find the documentation here:  [Differentiable-Robot-Model Documentation](https://fmeier.github.io/differentiable-robot-model-docs/)  
 
 ## Installation
 Requirements: python>= 3.7  
